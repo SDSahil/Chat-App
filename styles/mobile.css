@@ -1,0 +1,14 @@
+@media only screen and (max-width: 523px) {
+    .actions {
+        display: none;
+    }
+
+    .message {
+        width: 100%;
+    }
+
+    #msg-container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
