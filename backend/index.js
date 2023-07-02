@@ -1,23 +1,3 @@
-/* const io = require('socket.io')(8000);
-
-const users = {};
-
-io.on('connection', socket => {
-    console.log('A user connected');
-    socket.on('user-joined', name => {
-        console.log(`new user joined: ${name}`);
-        users[socket.id] = name;
-        socket.brodcast.emit('New user joined', name);
-    });
-
-    socket.on('send', message => {
-        socket.brodcast.emit('recieve', {message, name: users[socket.io]});
-    });
-
-    // socket.on('receive', message => {});
-}); */
-
-
 const { Server } = require("socket.io");
 
 const express = require('express');
